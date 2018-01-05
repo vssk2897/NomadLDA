@@ -1,15 +1,11 @@
 
 import java.util.Arrays;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 /**
  *
- * @author blackhat
+ * @author V S S Karthik
  */
 public class QuickSort
 {
@@ -82,6 +78,7 @@ public class QuickSort
         // if we reach here, then element was not present
         return -1;
     }
+    // Driver Program for testing the methods
     public static void main(String[] args)
     {
         int[] arr={7,0,8,0,6,9,2,1,3,0,0,4};
